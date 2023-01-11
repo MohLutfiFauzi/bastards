@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="assets/Logo barstard.png" width="64px" alt="Logo barstard" />
+      <ul>
+        <li>
+          <a title="home" href="index.html">home</a>
+        </li>
+        <li>
+          <a title="about" href="about.html">about us</a>
+        </li>
+        <li>
+          <a title="contact" href="contact.html">contact</a>
+        </li>
+        <li>
+          <a title="tips" href="tips.html">tips</a>
+        </li>
+        <li>
+          <a title="kegiatan" href="kegiatan.html">kegiatan</a>
+        </li>
+      </ul>
+    </nav>
+    <main style="display: flex; flex-direction: column; gap: 64px">
+      <section class="home">
+        <h2>Hello daks!</h2>
+        <h1><span>Barstard</span> here</h1>
+        <h3>Bentuk tubuh sehat mu</h3>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img
+              src="assets/foto1.jpg"
+              style="
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+                object-position: 0 -140px;
+                border-radius: 32px;
+              "
+            />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img
+              src="assets/foto9.jpg"
+              style="
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+                object-position: 0 -140px;
+                border-radius: 32px;
+              "
+            />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img
+              src="assets/foto3.jpg"
+              style="
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+                object-position: 0 -750px;
+                border-radius: 32px;
+              "
+            />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <div style="display: flex">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+        <p style="width: 50%; margin: auto; margin-bottom: 32px">
+          Komunitas ini mengadopsi metode
+          <span style="color: #f19a3e">calisthenics</span> dalam melakukan
+          aktivitasnya. Secara umum, calisthenics merupakan sebuah metode
+          latihan beban dengan menggunakan
+          <span style="color: #f19a3e">bobot badan sendiri</span> .Untuk teknis
+          latihan, dibagi menjadi beberapa kelompok.
+        </p>
+        <a href="contact.html" class="btn-join">Join Barstard</a>
+      </section>
+
+      <!-- About -->
+
+      <section class="about">
+        <h1>About us</h1>
+        <div class="about-card">
+          <div class="card">
+            <img src="assets/Group 2.png" alt="icon otot" width="130px" />
+            <h2>cardio</h2>
+            <p>
+              Jenis olahraga ini membantu mengalirkan lebih banyak oksigen ke
+              tubuh, sehingga jantung dan paru-paru dapat terjaga kesehatannya.
+              Ikuti kegiatan cardio hanya di Barstard Bandung!
+            </p>
+          </div>
+          <div class="card">
+            <img src="assets/Group 4.png" alt="icon badan pria" width="130px" />
+            <h2>workout</h2>
+            <p>
+              workout dapat meningkatkan atau memelihara kebugaran tubuh.
+              Aktivitas workout ini kini tengah menjadi gaya hidup baru bagi
+              kebanyakan orang khususnya para milenial. Ikuti kegiatan workout
+              hanya di Barstard Bandung!
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="assets/Group 6.png"
+              alt="icon badan wanita"
+              width="130px"
+            />
+            <h2>yoga</h2>
+            <p>
+              Yoga adalah olahraga tubuh dan pikiran yang fokus pada kekuatan,
+              kelenturan, serta pernapasan demi peningkatan kesehatan mental dan
+              fisik. ikuti kegiatan yoga hanya di Barstard Bandung!
+            </p>
+          </div>
+        </div>
+        <p
+          style="
+            width: 50%;
+            font-size: 14px;
+            color: #f5f7dc;
+            margin: auto;
+            margin-top: 46px;
+          "
+        >
+          Tak hanya itu komunitas ini juga sering diundang dalam acara
+          <span style="color: #f19a3e">workshop</span>
+          ke sekolah dan kampus-kampus. Mereka memberikan
+          <span style="color: #f19a3e">edukasi dan pengenalan</span>
+          mengenai olahraga street workout. "Latihan ini sendiri berfungsi untuk
+          pembentukan otot maupun pembakaran lemak"
+        </p>
+      </section>
+
+      <!-- Tips -->
+
+      <section class="tips">
+        <h1>workout tips</h1>
+        <div class="container-card-tips">
+          <div class="card-tips">
+            <img src="assets/icon orange-01.png" alt="" />
+            <div class="card-tips-desc">
+              <h2>Tips pemanasan</h2>
+              <p>
+                Dalam hal menghangatkan tubuh di awal latihan, peregangan
+                berbasis gerakan (juga dikenal sebagai dinamis) adalah yang
+                terbaik. Artinya, segala sesuatu yang melibatkan tidak berdiri
+                diam atau menurunkan detak jantung.
+              </p>
+            </div>
+          </div>
+          <div class="card-tips">
+            <img src="assets/icon orange-02.png" alt="" />
+            <div class="card-tips-desc">
+              <h2>Perhatikan makanan</h2>
+              <p>
+                ingatlah prinsip dasarnya adalah lebih banyak kalori yang
+                digunakan ketimbang yang masuk. Jika kamu berlatih untuk
+                mendapatkan otot, jenis makanan yang kamu makan juga sangat
+                penting.
+              </p>
+            </div>
+          </div>
+          <div class="card-tips">
+            <img src="assets/icon orange-03.png" alt="" />
+            <div class="card-tips-desc">
+              <h2>Tetapkan tujuan</h2>
+              <p>
+                Langkah pertama yang perlu dilakukan sebagai tips gym untuk
+                pemula adalah meluangkan waktu untuk menetapkan tujuan dengan
+                jelas. Mengapa kamu ingin nge-gym?
+              </p>
+            </div>
+          </div>
+          <div class="card-tips">
+            <img src="assets/icon orange-04.png" alt="" />
+            <div class="card-tips-desc">
+              <h2>Tips push up</h2>
+              <p>
+                Ingin membentuk otot tubuh? Anda bisa coba melakukan gerakan
+                push-up secara rutin. Saat push-up ada tiga bagian otot yang
+                dilibatkan yakni, otot bahu, dada, dan trisep (otot belakang
+                lengan atas).
+              </p>
+            </div>
+          </div>
+          <div class="card-tips">
+            <img src="assets/icon orange-05.png" alt="" />
+            <div class="card-tips-desc">
+              <h2>Tips sit up</h2>
+              <p>
+                Cara melakukan sit up sebenarnya tidaklah sulit. Namun bagi
+                pemula, sit up mungkin terbayang sebagai latihan yang ribet.
+                Sebab, jenis olahraga yang satu ini memang harus dilakukan
+                dengan cara yang tepat sehingga manfaatnya didapat secara utuh.
+              </p>
+            </div>
+          </div>
+          <div class="card-tips">
+            <img src="assets/icon orange-06.png" alt="" />
+            <div class="card-tips-desc">
+              <h2>Tips yoga</h2>
+              <p>
+                Saat mendengar kata yoga, hal apa yang pertama kali terbersit di
+                benak Anda? Tubuh lentur dengan posisi aneh, ajaib, dan nyaris
+                tak masuk akal di atas matras? Gabungan ekspresi wajah menahan
+                sakit sambil kebingungan berupaya….
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kegiatan -->
+
+      <section class="kegiatan">
+        <h1>Kegiatan</h1>
+        <div class="container-kegiatan-card">
+          <div class="kegiatan-card">
+            <img
+              src="assets/foto6.jpg"
+              alt=""
+              style="
+                width: 250px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 16px;
+              "
+            />
+            <div class="kegiatan-card-desc">
+              <h2>Bakti Sosial</h2>
+              <p>
+                Kegiatan bakti sosial seringkali dilakukan barstard dalam 2
+                kurun waktu 2 minggu sekali.
+              </p>
+              <a href="contact.html" class="btn-join">ikut sini</a>
+            </div>
+          </div>
+          <div class="kegiatan-card">
+            <img
+              src="assets/foto5.jpg"
+              alt=""
+              style="
+                width: 250px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 16px;
+              "
+            />
+            <div class="kegiatan-card-desc">
+              <h2>Workout goes to</h2>
+              <p>
+                Workout di alam, kota dan tempat lainnya sungguh pengalaman yang
+                luar biasa.
+              </p>
+              <button class="btn-join">ikut sini</button>
+            </div>
+          </div>
+          <div class="kegiatan-card">
+            <img
+              src="assets/foto7.jpg"
+              alt=""
+              style="
+                width: 250px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 16px;
+              "
+            />
+            <div class="kegiatan-card-desc">
+              <h2>Lingkungan</h2>
+              <p>
+                Aktivitas lingkungan yang dilakukan Barstard berupa tanam pohon,
+                bersih-bersih hingga aktivitas workout di alam bebas.
+              </p>
+              <a href="contact.html" class="btn-join">ikut sini</a>
+            </div>
+          </div>
+          <div class="kegiatan-card">
+            <img
+              src="assets/foto8.jpg"
+              alt=""
+              style="
+                width: 250px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 16px;
+              "
+            />
+            <div class="kegiatan-card-desc">
+              <h2>Keliling Bandung</h2>
+              <p>
+                Acara ini dilakukan di beberapa tempat di bandung, bahkan kami
+                membuka acara keliling bandung gratis.
+              </p>
+              <a href="contact.html" class="btn-join">ikut sini</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section class="contact">
+        <h1>Contact</h1>
+        <p>
+          Kontak kita melalui email atau official account & sosial media kita
+        </p>
+        <form>
+          <div class="contact-name-input">
+            <label>
+              First name
+              <input type="text" />
+            </label>
+            <label>
+              Last name
+              <input type="text" />
+            </label>
+          </div>
+          <label>
+            Email
+            <input type="text" />
+          </label>
+          <label>
+            Pesan
+            <input type="text" />
+          </label>
+          <button class="btn-join">Kirim Pesan</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Barstard Bandung @ 2022 Raditya Fadillah</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
